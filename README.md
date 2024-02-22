@@ -20,7 +20,7 @@ Fill a brief description of this experiment here
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Dr. Ajith Madhavan | Faculty | Amrita School of Biotechnology | Amrita Vishwa Vidyapeetham | ashavijayan@am.amrita.edu
+1 | Dr. Ajith Madhavan | Faculty | Amrita School of Biotechnology | Amrita Vishwa Vidyapeetham | ajithm@am.amrita.edu
 2 | Dr. Asha Vijayan | Faculty | Amrita School of Biotechnology | Amrita Vishwa Vidyapeetham | ashavijayan@am.amrita.edu
 3 | Bhavya O | Software Engineer | Amrita Virtual Labs | Amrita Vishwa Vidyapeetham | bhavyao@am.amrita.edu 
 4 | Rakhi Radhamani | Research Associate | Amrita Virtual Labs | Amrita Vishwa Vidyapeetham | rakhir@am.amrita.edu
