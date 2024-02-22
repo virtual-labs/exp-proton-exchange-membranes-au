@@ -2,38 +2,69 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1) Protons and electrons are produced in",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Cathodic chamber",
+        "b": "Anodic chamber",
+        "c": "Proton exchange membrane",
+        "d": "External circuit"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2) Example of oxygenic phototrophs",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Green sulfur bacteria",
+        "b": "Purple sulfur bacteria",
+        "c": "Acidobacteria",
+        "d": "Cyanobacteria"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "3) Example(s) of phototrophic microorganisms",
+      "answers": {
+        "a": "Staphylococcus sp",
+        "b": "Nitrobacter sp",
+        "c": "Chroococcus sp",
+        "d": "Clostridium sp"
       },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+
+    {
+      "question": "4) Anode that can be used in Phototrophic Microbial Fuel Cell",
+      "answers": {
+        "a": "Aluminium",
+        "b": "Manganese",
+        "c": "Stainless Steel",
+        "d": "All the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "5) OCV refers to",
+      "answers": {
+        "a": "Open Current Voltage",
+        "b": "Open Circuit Voltage",
+        "c": "Over Circuit Voltage",
+        "d": "Output Current Voltage"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
+
   ]
 }
