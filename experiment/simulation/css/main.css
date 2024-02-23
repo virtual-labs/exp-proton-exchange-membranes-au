@@ -405,7 +405,7 @@ label {
 .image-container {
   position: absolute;
   display: inline-block;
-  top: 55%;
+  top: 60%;
 
 }
 
@@ -744,7 +744,7 @@ label {
   .image-container {
     position: absolute;
     display: inline-block;
-    top: 50%;
+  
    
   }
   .main-container {
@@ -781,9 +781,9 @@ label {
   .image-container {
     position: absolute;
     display: inline-block;
-    top: 40%;
-    left:20%;
-    right:-10%;
+    top: 60%;
+   
+   
   }
   .main-container {
   position: absolute;
