@@ -763,7 +763,6 @@ label {
 }
 
 
-
  @media (min-width: 1025px) {
       #header {
     font-size: 2vw;
@@ -798,5 +797,5 @@ label {
   top:490%;
   left:55%;
 }
-  
- }
+ 
+}
