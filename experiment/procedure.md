@@ -2,7 +2,8 @@
 
 1.	Users can open the simulator window. In the simulator window,  input parameters Anolyte, PEM, Catholyte, and Time were provided. The design of a microbial fuel cell is also displayed. The MFC is connected to a Voltmeter to measure the output voltage for each input parameter.
  
- <img src="images/11.png" title="" allign="center">
+ <img src="images/11.png" title="">
+
 &nbsp;
 
 2.	Users can select Anolyte, PEM, Catholyte, and Time duration to run the simulator. In the interface, PEM is selected as Nutrient agar with Bacillus subtilis. To study the change in the output voltage depending on PEM,  users can change the PEM and finalize the best PEM for MFCs in the laboratory setting. 
