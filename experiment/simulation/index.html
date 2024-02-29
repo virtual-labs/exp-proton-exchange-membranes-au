@@ -10,7 +10,7 @@
 <body style="background-color:rgb(192, 192, 192);">
     <div class='at-container'>
         <img src="images\logo.png" width="15%" height="4%"
-        style="margin-left:1%; padding-top: 1%">
+            style="margin-left:1%; padding-top: 1%">
 
         <div id='header'>Proton Exchange Membrane</div>
     </div>
@@ -19,7 +19,7 @@
         <div class="select-anolyte">
             <label for="anolyte"><b>Anolyte:</b></label>
             <select name="selectAnolyte" class="custom-select mb-3">
-                <option selected>Select Anolyte</option>
+                <option selected disabled>Select Anolyte</option>
                 <option value="wasteWater">Waste Water</option>
             </select>
         </div>
@@ -27,14 +27,13 @@
             <label for="pem"><b>PEM:</b></label>
             <select name="selectPem" class="custom-select mb-3">
                 <option value="Agar" selected>Nutrient Agar with Bacillus subtilis</option>
-                <!-- <option value="Agarwithbacillus"> Nutrient Agar with Bacillus subtilis</option> -->
                 <option value="Nafion">Nafion</option>
             </select>
         </div>
         <div class="select-catholyte">
             <label for="catholyte"><b>Catholyte:</b></label>
             <select name="selectCatholyte" class="custom-select mb-3">
-                <option selected>Select Catholyte</option>
+                <option selected disabled>Select Catholyte</option>
                 <option value="KMnO4">KMnO4</option>
                 <option value="water">Water</option>
             </select>
@@ -42,7 +41,7 @@
         <div class="select-anode">
             <label for="anode"><b>Anode:</b></label>
             <select name="anodeSelect" id="anodeSelect" class="custom-select mb-3">
-                <option selected>Select Electrode</option>
+                <option selected disabled>Select Electrode</option>
                 <option value="Aluminium">Aluminium</option>
                 <option value="Manganese">Manganese</option>
                 <option value="Graphite">Graphite</option>
@@ -52,7 +51,7 @@
         <div class="select-cathode">
             <label for="Cathode"><b>Cathode:</b></label>
             <select name="cathodeSelect" class="custom-select mb-3">
-                <option selected>Select Electrode</option>
+                <option selected disabled>Select Electrode</option>
                 <option value="Copper">Copper</option>
                 <option value="Graphite">Graphite</option>
 
@@ -61,7 +60,7 @@
         <div class="select-timeduration">
             <label for="time"><b>Time:</b></label>
             <select name="timeSelect" class="custom-select mb-3">
-                <option selected>Select Time</option>
+                <option selected disabled>Select Time</option>
                 <option value="firstday">24 hours</option>
                 <option value="secondday">48 hours</option>
                 <option value="thirdday">72 hours</option>
@@ -69,15 +68,15 @@
 
             </select>
         </div>
-       
+
     </div>
 
 
 
     <div class="image-container">
 
-        <img src="images\tabletop.png" alt="micro fuel cell"
-            class="centered">
+        <img src="images\tabletop.png"
+            alt="micro fuel cell" class="centered">
         <div class="color-overlay">
             <p class="overlay-text1">Waste Water</p>
             <p class="overlay-anolytetext"></p>
@@ -91,34 +90,32 @@
         </div>
         <div class="color-overlay2"></div>
         <div class="color-overlayNafion" style="display:none;"></div>
-       
+
 
         <div class="commonAnode-container">
             <img src="images\aluminium.png" alt="Aluminium"
                 id="aluminium-image">
 
-            <img src="images\stainlesssteel.png" alt="Stainless Steel"
-                id="stainless-steel-image">
+            <img src="images\stainlesssteel.png"
+                alt="Stainless Steel" id="stainless-steel-image">
             <img src="images\manganese.png" alt="Manganese"
                 id="manganese-image">
 
         </div>
         <div class="commonAnode-graphite">
 
-            <img src="images\charcoal brush3.png" alt="Graphite"
-                id="graphite-image">
+            <img src="images\charcoal brush3.png"
+                alt="Graphite" id="graphite-image">
         </div>
 
         <div class="commonCathode-container">
             <img src="images\copper.png" alt="Copper Image"
                 id="copper-image">
-            <!-- <div class="image-nameCathode">Cu</div> -->
 
-            <!-- <div class="image-nameCathode">C</div> -->
             <div class="commonCathode-graphite">
 
-                <img src="images\charcoal brush3.png" alt="Graphite"
-                    id="cathodegraphite-image">
+                <img src="images\charcoal brush3.png"
+                    alt="Graphite" id="cathodegraphite-image">
             </div>
 
         </div>
@@ -129,14 +126,14 @@
 
         </div>
         <div class="wire_image">
-            <img src="images\background_converted.png" alt="left wireimage"
-                id="wire-image">
+            <img src="images\background_converted.png"
+                alt="left wireimage" id="wire-image">
 
         </div>
 
         <div class="wire2_image">
-            <img src="images\red_wire.png" alt="redright wireimage"
-                id="wire2-image">
+            <img src="images\red_wire.png"
+                alt="redright wireimage" id="wire2-image">
 
         </div>
 
@@ -180,7 +177,8 @@
             <img src="images\arrow.png" id="arrow-image">
         </div>
         <div class="bacteriaGif">
-            <img src="images\bacteriaGif.gif" id="bacteriaGif-image">
+            <img src="images\bacteriaGif.gif"
+                id="bacteriaGif-image">
         </div>
 
         <!-- electrons top -->
@@ -205,7 +203,6 @@
         var selectPem = document.querySelector('select[name="selectPem"]');
         var MembraneAgar = document.querySelector(".color-overlay2");
         var MembraneNafion = document.querySelector(".color-overlayNafion");
-        // var MembraneAgarwithBasillus = document.querySelector(".color-overlayAgarwithBacillus");
 
         selectPem.addEventListener('change', function () {
             // Get the selected option
@@ -214,7 +211,7 @@
             // Hide all images first
             MembraneAgar.style.display = 'none';
             MembraneNafion.style.display = 'none';
-            // MembraneAgarwithBasillus.style.display = 'none';
+
             var cathodeSelect = document.querySelector('select[name="cathodeSelect')
             var selectedCathode = cathodeSelect.value;
             var anodeSelect = document.querySelector('select[name="anodeSelect')
@@ -224,13 +221,13 @@
             if (selectedPEM === 'Agar') {
                 MembraneAgar.style.display = 'block';
                 MembraneNafion.style.display = 'none';
-                //  MembraneAgarwithBasillus.style.display = 'none';
+
             } else if (selectedPEM === 'Nafion') {
                 MembraneNafion.style.display = 'block';
                 MembraneAgar.style.display = 'none';
-                // MembraneAgarwithBasillus.style.display = 'none';
+
             } else if (selectedPEM === 'Agarwithbacillus') {
-                // MembraneAgarwithBasillus.style.display = 'block';
+
 
             }
             displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM);
@@ -249,16 +246,12 @@
             var selectedAnode = anodeSelect.value;
             var selectedPEM = document.querySelector('select[name="selectPem"]').value;
             var selectedValue = selectTime.value;
-            console.log(selectedPEM);
+           
 
             displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM);
-            //displayLightGraphite(selectedAnode, selectedCathode, selectedValue, selectedPEM);
+
 
         });
-
-
-
-
 
         // hidding
         var anodeDisplay = document.querySelector(".select-anode");
@@ -275,12 +268,8 @@
         var cathodeSelect = document.querySelector('select[name="cathodeSelect')
         var selectedAnode = anodeSelect.value;
 
-
-
-
-
         var bulb_on = document.getElementById('bulbOn-image');
-        console.log(bulb_on);
+       
         var bulb_on_medium = document.getElementById('bulbOnMedium-image');
         var bulb_off = document.getElementById('bulbOff-image');
 
@@ -295,7 +284,7 @@
 
 
         var anodeSelect = document.getElementById("anodeSelect");
-        console.log(anodeSelect);
+      
 
         // Add an event listener to the Anode select element
         anodeSelect.addEventListener('change', function () {
@@ -334,7 +323,7 @@
             }
             if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
                 displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM);
-                // displayLightGraphite(selectedAnode, selectedCathode, selectedValue, selectedPEM);
+
 
             } else {
                 displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM);
@@ -343,23 +332,10 @@
                 document.getElementById("bulbOnMedium-image").style.display = "none";
             }
 
-            //updateDisplay(selectedAnode, selectedCathode);
+
 
         });
-        const electron1 = document.getElementById("electron1");
-        const electron2 = document.getElementById("electron2");
-        const electron3 = document.getElementById("electron3");
-
-        const electron4 = document.getElementById("electron4");
-        const electron5 = document.getElementById("electron5");
-        const electron6 = document.getElementById("electron6");
-
-        const electron7 = document.getElementById("electron7");
-        const electron8 = document.getElementById("electron8");
-        const electron9 = document.getElementById("electron9");
-
-        const proton1 = document.getElementById("proton1");
-
+        
 
 
         function displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM) {
@@ -548,7 +524,7 @@
                 nafionalumCopp1.style.display = 'none';
                 nafionalumCopp2.style.display = 'none';
 
-                electron1.style.display = 'block';
+                 electron1.style.display = 'block';
                 electron2.style.display = 'block';
                 electron3.style.display = 'block';
                 electron4.style.display = 'block';
@@ -780,20 +756,16 @@
                 nafionalumCopp2.style.display = 'none';
                 nafionalumCopp1.style.display = 'none';
 
-                electron1.style.visibility = "none";
-                electron2.style.visibility = "none";
-                electron3.style.visibility = "none";
-
-                electron4.style.visibility = "none";
-                electron5.style.visibility = "none";
-                electron6.style.visibility = "none";
-
-                electron7.style.visibility = "none";
-                electron8.style.visibility = "none";
-                electron9.style.visibility = "none";
-
-                proton1.style.visibility = "none";
-
+                electron1.style.display = 'none';
+                electron2.style.display = 'none';
+                electron3.style.display = 'none';
+                electron4.style.display = 'none';
+                electron5.style.display = 'none';
+                electron6.style.display = 'none';
+                electron7.style.display = 'none';
+                electron8.style.display = 'none';
+                electron9.style.display = 'none';
+                proton1.style.display = 'none';
 
                 nafionalumCopp3.style.display = 'none';
                 defaultImage.style.display = 'block';
@@ -804,18 +776,10 @@
 
 
         //Cathode selection
-
-
-
         var cathodecopperImage = document.getElementById('copper-image');
         var cathodeGraphiteImage = document.getElementById('cathodegraphite-image');
-
-
-
-
         const wireRightTop = document.querySelector('.wire2_image');
         wireRightTop.style.display = 'none';
-
 
 
         // Add an event listener to the Anode select element
@@ -846,12 +810,6 @@
             if (selectedCathode !== 'Select Electrode' && selectedAnode !== 'Select Electrode') {
                 displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM);
 
-
-
-
-                //document.getElementById("bulbOff-image").style.display = "none";
-
-
             } else {
                 displayLight(selectedAnode, selectedCathode, selectedValue, selectedPEM);
                 document.getElementById("bulbOff-image").style.display = "inline";
@@ -859,13 +817,8 @@
                 document.getElementById("bulbOnMedium-image").style.display = "none";
             }
 
-            //updateDisplay(selectedAnode, selectedCathode);
+
         });
-
-
-
-
-
 
 
         function updateDisplay(selectedAnode, selectedCathode) {
@@ -873,7 +826,7 @@
 
             const alumCopp1 = document.getElementById('alumCopp1');
 
-            console.log(defaultImage);
+           
             if (selectedAnode === 'Aluminium' && selectedCathode === 'Copper') {
                 alumCopp1.style.display = 'block';
                 defaultImage.style.display = 'none';
@@ -899,7 +852,7 @@
                 bacteriaImage.style.display = 'block';
                 bacteriaGifImage.style.display = 'block';
                 arrowImage.style.display = 'block';
-                console.log(bacteriaImage);
+              
             } else {
                 anolyteWasteWater.style.display = 'none';
                 bacteriaImage.style.display = 'none';
