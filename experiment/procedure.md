@@ -2,7 +2,7 @@
 
 1.	Users can open the simulator window. In the simulator window,  input parameters Anolyte, PEM, Catholyte, and Time were provided. The design of a microbial fuel cell is also displayed. The MFC is connected to a Voltmeter to measure the output voltage for each input parameter.
  
- <img src="images/11.png" title="">
+ <img src="images/21.png" title="">
 
 &nbsp;
 
