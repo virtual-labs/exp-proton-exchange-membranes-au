@@ -6,6 +6,7 @@
 
 &nbsp;
 
+
 2.	Users can select Anolyte, PEM, Catholyte, and Time duration to run the simulator. In the interface, PEM is selected as Nutrient agar with Bacillus subtilis. To study the change in the output voltage depending on PEM,  users can change the PEM and finalize the best PEM for MFCs in the laboratory setting. 
 
 3.	Users can change the parameters according to their choice. The anolyte provided in the interface is Wastewater. PEM has the choice of Nutrient agar with Bacillus subtilis and Nafion. Catholyte options are KMO4 and water. When Catholyte is selected, users can see the options to select Cathode and Anode. Users can choose Anode as either Aluminium, Manganese, Graphite, or Stainless Steel, and Cathode as either Copper or Graphite. The time interval provided is 24hrs, 48hrs and 72hrs. 
